@@ -1,0 +1,130 @@
+.wrapper {
+	padding: 0px 100px;
+	background-color: #f6deda;
+}
+
+nav li {
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif;	font-weight: bold;
+	font-size: 16pt;
+	color: white;
+	padding: 0px 20px;
+	float: left;
+	text-align: center;
+}
+
+.container {
+	overflow: hidden;
+}
+
+
+nav i {
+	color: #ea534f;
+	transition: all .25s ease-in-out;
+   -moz-transition: all .25s ease-in-out;
+   -webkit-transition: all .25s ease-in-out;
+}
+
+nav li:hover i {
+	color: #c3f2fe;
+	position: relative;
+	top: -7px;
+}
+
+nav ul {
+	margin: 0;
+}
+
+nav li:last-child {
+	padding: 0;
+}
+
+nav {
+	height: 25px;
+	padding: 25px 100px;
+}
+
+.image {
+	float:left;
+	padding: 0 0 0 100px;
+}
+
+.nav {
+	float:right;
+}
+
+.banners {
+	height: 325px;
+	background-color: #e6faff;
+	width: 100%;
+    background-image: url("../images/bluecat.png");
+	background-repeat: repeat;
+	text-align: center;
+}
+
+.banner {
+	padding: 0 325px;
+}
+
+.bottomcopywrapper {
+	width: 100%;
+	padding: 0 25px 300px 160px;
+}
+
+.bottomcopywrapper i {
+	font-size: 45pt;
+	text-align: center;
+	color: #ea534f;
+	padding: 25px 0 0 130px;
+}
+
+.bottomcopy1 {
+	float: left;
+	width: 25%;
+}
+
+.bottomcopy2 {
+	float: left; 
+	width: 25%;
+
+}
+
+.bottomcopy3 {
+	float: left;
+	width: 25%;
+
+}
+
+.bottomcopywrapper h1 {
+	font-family: 'Roboto Slab', serif;	font-weight: bold;
+	font-size: 16pt;
+	text-align: center;
+}
+
+.bottomcopywrapper p {
+	float: left;
+	font-family: "Arial";
+	text-align: center;
+	font-size: 11pt;
+	padding: 0 60px;
+}
+
+.content i {
+	font-size: 100pt;
+	color: #ea534f;
+	text-align: center;
+	padding: 0px 0 0 550px;
+}
+
+.content p {
+	font-family: 'Roboto Slab', serif;	font-weight: bold;
+	font-size: 40pt;
+	text-align: center;
+	padding: 0 225px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
